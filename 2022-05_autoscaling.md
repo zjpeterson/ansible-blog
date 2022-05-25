@@ -90,4 +90,12 @@ We can see that a **limit** was applied for us, causing the job to only run agai
 
 ![Screenshot of config job detail](images/2022-05_autoscaling/ctl-configdetail.png)
 
-At this point our host is provisioned with all the changes defined in the application config playbook. Going forward, each new instance that comes up in this Auto Scaling Group will register/provision itself, and stale instances will remove themselves.
+At this point our host is provisioned with all the changes defined in the application config playbook. My playbook just left a file on the machine:
+
+```
+$ ssh ec2-user@ec2-3-139-89-54.us-east-2.compute.amazonaws.com
+[ec2-user@autoscale ~]$ cat ansible.txt
+Ansible was here
+```
+
+Going forward, each new instance that comes up in this Auto Scaling Group will register/provision itself, and stale instances will remove themselves.
