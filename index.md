@@ -10,4 +10,4 @@ I'm Zach, an Ansible specialist at [Red Hat](https://www.redhat.com/en/technolog
 
 ### Cloud
 
-- [Provisioning Callbacks with AWS autoscaling](2022-05_autoscaling.md)
+- [Provisioning Callbacks with AWS Auto Scaling](2022-05_autoscaling.md)
