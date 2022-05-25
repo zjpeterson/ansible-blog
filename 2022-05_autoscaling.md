@@ -31,7 +31,7 @@ filters:
 
 Here I'm calling the `aws_ec2` inventory plugin from the certified `amazon.aws` collection, telling it to look for instances in `us-east-2`, and to only give me instances with the `Name` tag set to `autoscale`. We'll use that later when we set up Auto Scaling.
 
-In Automation Controller, I source this file from Git in my inventory, and attach a credential for the AWS API.
+In Automation Controller, I source this file from Git in my (otherwise blank) inventory, and attach a credential for the AWS API.
 
 ![Screenshot of Inventory Source](images/2022-05_autoscaling/ctl-invsource.png)
 
