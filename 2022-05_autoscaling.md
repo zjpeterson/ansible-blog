@@ -80,7 +80,7 @@ For the sake of demonstration, I'm going to go into my Auto Scaling group and se
 
 ![Screenshot of EC2 instance](images/2022-05_autoscaling/aws-instance.png)
 
-Now we can monitor the Jobs list in Automation Controller. Some time shortly after the new EC2 instance comes up, we see a couple of jobs start:
+Now we can monitor the Jobs list in Automation Controller. Some time shortly after the new EC2 instance comes up, we see a couple of jobs start in Automation Controller:
 
 ![Screenshot of Jobs list](images/2022-05_autoscaling/ctl-jobs.png)
 
