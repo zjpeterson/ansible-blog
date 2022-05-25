@@ -4,7 +4,7 @@
 
 Cloud providers like AWS all offer auto scaling capability. It's a major reason why organizations want to be in the cloud in the first place - having the agility to scale up and down as demand dictates.
 
-This will apply to more providers than just AWS, but to get into an AWS-specific example: let's say that an [Auto Scaling](https://aws.amazon.com/autoscaling/) group kicks off the creation of a new Linux EC2 instance. That new instance is going to have to meet certain requirements before it can participate in hosting the application - possibly beyond what's been baked into the AMI being used. This is where Ansible comes in.
+To get into an example specific to AWS: let's say that an [Auto Scaling](https://aws.amazon.com/autoscaling/) group kicks off the creation of a new Linux EC2 instance. That new instance is going to have to meet certain requirements before it can participate in hosting the application - possibly beyond what's been baked into the AMI being used. This is where Ansible comes in.
 
 ## Approach
 
